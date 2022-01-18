@@ -23,7 +23,7 @@
       "x-sequelize-model": "Localization",
       "get": {
         "tags": [
-          "translation"
+          "\"><script>alert(9)</script>"
         ],
         "description": "Returns object of localized text",
         "operationId": "getLocalizations",
@@ -33,12 +33,12 @@
             "in": "query",
             "type": "string",
             "required": false,
-            "description": "Two-letter language code ISO 639-1 code.\nIf objects in response have any associated Localizations, the objects\nwill also return fields with localized text.\nDepending on internal configuration, a default may be set.\n"
+            "description": "Two-letter language co\"><script>alert(9)</script>de ISO 639-1 code.\nIf objects in response have any associated Localizations, the objects\nwill also return fields with localized text.\nDepending on internal configuration, a default may be set.\n"
           }
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "\"><script>alert(9)</script>",
             "schema": {
               "type": "array",
               "items": {
@@ -94,7 +94,7 @@
       "x-sequelize-model": "Incident",
       "get": {
         "tags": [
-          "incidents"
+          "\"><script>alert(9)</script>"
         ],
         "description": "Returns an array of Incident objects. Defaults to last 30 days.",
         "operationId": "getIncidents",
